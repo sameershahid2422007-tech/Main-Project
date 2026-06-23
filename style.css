@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    padding: 1rem 5rem 10rem 5rem;
+}
+
+header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+        background-image: url('./acids/Decore.png');
+    background-position-x:  right;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+.main{
+    position: relative;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    width: max-content;
+
+}
+
+nav ul li {
+    width: 100%;
+}
+
+#element {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    display: none;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+}
+
+#element a {
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    justify-content: left;
+    text-align: left;
+    width: 100%;
+
+}
+
+#woho {
+    position: relative;
+}
+
+
+
+
+
+
+#side {
+    display: none;
+}
+
+.hide {
+    display: flex;
+}
+
+
+.items {
+    width: 7rem;
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.items a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.M {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 0.2rem 1rem;
+    width: max-content;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    outline: none;
+}
+
+.double-o {
+    position: relative;
+    color: transparent; 
+}
+
+.double-o::before {
+    content: "●●";
+    color: #f5b700; 
+    -webkit-text-stroke: 4px #000; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    letter-spacing: -0.1rem;
+}
+
+#arrow {
+    position: absolute;
+}
+
+
+ul {
+    display: flex;
+}
+
+
+
+.nav-language {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: 1rem;
+    font-weight: 600;
+
+}
+
+.divider{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Home-Section */
+
+.Home{
+    margin-top: 5rem;
+}
+
+.inner-pera{
+    color: #DF6951;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.inner-h{
+  font-family: "Volkhov", serif;
+      line-height: 89px;
+    letter-spacing: -4%;
+    font-weight: bold;
+    font-size: 78px;
+    color: #181E4B;
+    margin-bottom: 1rem;
+    opacity: 100%;
+
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+/* For enjoy brush */
+.highlight::after {
+    content: "";
+    position: absolute;
+    left: -5%;
+    bottom: 10px;
+    width: 110%;
+    height: 14px;
+    background: #DF6951;
+    border-radius: 50px;
+    transform: skewX(-12deg);
+    z-index: -1;
+}
+
+.lower{
+    color: #5E6282;
+    font-size: 14.44px;
+    font-weight: medium;
+    font-family: "Poppins", sans-serif;
+}
+
+.bbtn{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.first{
+       background-color: #F1A501;
+    color: white;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 9.2px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    background-color: transparent;
+
+}
+.second img {
+display: block;
+margin: 0 auto;
+}
+
+.second span{
+    padding-bottom: 0.6rem;
+    color: #686D77;
+    font-weight: medium;
+}
+
+
+/* img and next-half section  */
+.Next-half{
+    position: relative;
+}
+.F-plane{
+ position: absolute;
+       top: 4rem;
+    left: 8rem;
+}
+.S-plane{
+ position: absolute;
+       top: 4rem;
+    left: 33rem;
+}
+
+@media screen and (max-width:1348px) {
+
+   .hide{
+    display: none;
+   }
+    
+   #side{
+    display: block;
+   }
+}
