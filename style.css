@@ -193,7 +193,7 @@ ul {
 .highlight {
     position: relative;
     display: inline-block;
-    z-index: 1;
+        z-index: -5;
 }
 /* For enjoy brush */
 .highlight::after {
@@ -258,20 +258,228 @@ margin: 0 auto;
  position: absolute;
        top: 4rem;
     left: 8rem;
+    width:100px;
+     height:100px;
+    }
+    .S-plane{
+    width:100px;
+     height:100px;
+     position: absolute;
+     top: 4rem;
+     left: 33rem;
+    }
+    
+    .tour-pic{
+        width:650px;
+         height:650px;
+        
+}
+footer i{
+    color: gray;
+}
+   
+.hov{
+    text-decoration: none;
+}
+.lg{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 4px;
+}
+
+.fp{
+    font-size: 1rem;
+    color: gray;
+}
+
+
+
+.divs{
+    padding: 0.5rem;
+}
+
+
+.cursor{
+    cursor: pointer;
+}
+
+#B{
+    height:350px ;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+#B .x{
+    display: block;
+    padding: 5px;
+    font-size: 1rem;
+}
+#B .y{
+    display: block;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.C{
+    height: 350px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.C .x{
+    display: block;
+    padding: 5px;
+    font-size: 1rem;
+}
+.C .y{
+    display: block;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+#grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:30px;
+    padding:40px 20px;
+}
+
+.linker a{
+    display: inline-block;
+        border-radius: 100%;
+        padding: 8px;
+    box-shadow: 0 0 10px rgba(111, 108, 108, 0.5);
+}
+.f-bth{
+    display: flex;
+}
+.f-bth button{
+    color: white;
+    background-color: #000;
+    padding: 0.5rem 1rem;
+        padding: 0.5rem 1rem;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.1rem;
+        border: none;
+    border-radius: 8.61rem;
+
+}
+.f-bth h3{
+font-size: 7px;}
+
+.text{
+        text-align: start;
+    line-height: 0.7;
+}
+sub{
+    font-size: 4px;
+}
+
+@media screen and (max-width:768px){
+
+    /* body{
+        background-color: cyan;
+    } */
+    .hide{
+     display: none;
+    }
+    .hode{
+     display: none;
+    }
+.logo{
+    font-size: 2rem;
+}
+
+.items{
+    width: 100%;
+}
+
+#side{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 2rem;
+        margin-left: 0.5rem;
+}
+
+#woho {
+    display: flex;
+    padding: 1rem 0rem;
+    align-items: center;
+        justify-content: flex-end;}
+
+.divider{
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.bbtn{
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.Next-half{
+        position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.F-plane{
+    display: none;
 }
 .S-plane{
- position: absolute;
-       top: 4rem;
-    left: 33rem;
-}
-
-@media screen and (max-width:1348px) {
-
-   .hide{
     display: none;
-   }
-    
-   #side{
-    display: block;
-   }
+        
+ }
+    .tour-pic{
+        width:350px;
+         height:350px;
+        
 }
+
+ header::before{
+        background-size: 12rem 10.5rem; }
+header {
+    padding: 1rem 2rem;
+}
+ nav{
+    justify-content: flex-start;
+ }
+ul{
+           margin-left: auto;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 3rem;
+        background-color: white;
+        width: 100%;
+        align-items: flex-start;
+}
+
+.inner-pera{
+    margin-bottom: 1rem;
+}
+
+.highlight::after{
+    bottom: 4px;
+}
+.inner-h{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+  .lower br {
+    display: none;
+  }
+  .inner-h br {
+    display: none;
+  }
+} 
+
