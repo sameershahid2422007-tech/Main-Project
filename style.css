@@ -6,7 +6,7 @@
 }
 
 header {
-    padding: 1rem 5rem 10rem 5rem;
+    padding: 1rem 5rem 6rem 5rem;
 }
 
 header::before {
@@ -288,9 +288,46 @@ ul {
 
 }
 
+
+/* offer-section */
+
+#Offers{
+    padding: 3rem;
+}
+
+.sells{
+   display: flex;
+    justify-content: space-around;
+}
+
+.sell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sell img{
+ margin-bottom: 1rem;
+}
+
+#Air{
+    position: relative;
+    right: 0;
+    left: 68rem;
+    top: -189px;
+    opacity: 100%;
+}
+
+
+.sell-h{
+        margin: 0.5rem;
+               font-family: "Poppins", sans-serif;
+
+}
+
 /* Service-Section */
 
-.ser-sp {
+.ser-sp,.sell-p {
     color: #686D77;
     font-size: 1rem;
     font-weight: 500;
@@ -310,6 +347,7 @@ ul {
         text-align: center;
 
 }
+
 
 #service {
     padding: 5rem;
@@ -351,6 +389,17 @@ ul {
     margin: 1rem 0;
 }
 
+
+/* #people-section */
+#people{
+    padding: 5rem 3rem;
+}
+
+.constant{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 /* client section  */
 #client{
@@ -713,6 +762,15 @@ sup {
         padding-top: 25px;
     }
 
+
+    /* offer-section */
+    .sells{flex-direction: column;}
+
+    #Air{
+        display: none;
+    }
+
+
     /* tour-sectin  */
 
     
@@ -734,6 +792,21 @@ sup {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 7rem;}
+
+    /* people -section  */
+
+     
+    #people{
+    padding: 1rem 3rem;
+    }
+    #hahah{
+        width: 300px;
+    }
+
+    .constant{
+        flex-direction: column;
+    }
+
 
 /* client-section */
 
