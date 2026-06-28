@@ -390,6 +390,34 @@ ul {
 }
 
 
+/* Plans-section */
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+
+}
+#plans{
+    padding: 0 4rem;
+}
+.plans {
+    text-align: left;
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+.align{
+        text-align: left;
+
+}
+
+#img{
+    position: relative;
+    bottom: 7rem;
+    left: 2rem;
+}
+
 /* #people-section */
 #people{
     padding: 5rem 3rem;
@@ -793,7 +821,26 @@ sup {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 7rem;}
 
-    /* people -section  */
+
+/* plans-section  */
+
+.flex {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.align{
+    text-align: center;
+}
+
+#img {
+
+    height: 24rem;
+}
+
+    /* people-section  */
 
      
     #people{
